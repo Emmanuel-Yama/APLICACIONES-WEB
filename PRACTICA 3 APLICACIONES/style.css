@@ -1,0 +1,108 @@
+*{
+    padding:0%;
+    margin: 0%;    
+}
+html{
+    background-color: white;
+}
+body{
+    width: 960px;
+    height: 1080px;
+    background-color:rgb(11, 169, 241);
+   }
+.IMG{
+    width: 190px;
+    height: 200px;
+}
+.Apartado{
+    width: 760px;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: right;
+}
+.Conten{
+    width: 760px;
+    height: 170px;
+    background-color: rgb(196, 193, 17);
+    float:  right;
+    
+}
+.Apartado1{
+    width: 960px;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: left;
+}
+.Conten1{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(196, 193, 17);
+    float:left;
+}
+.Apartado2{
+    width: 960px;
+    margin: 5px 5px 0px 0px ;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: left;
+}
+.Conten2{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(196, 193, 17);
+    float:left;
+}
+.Apartado3{
+    width: 960px;
+    margin: 5px 5px 0px 0px ;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: left;
+}
+.Apartado4{
+    width: 960px;
+    margin: 5px 5px 0px 0px ;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: left;
+}
+.Conten3{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(196, 193, 17);
+    float:left;
+}
+.Apartado5{
+    width: 960px;
+    margin: 5px 5px 0px 0px ;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: left;
+}
+
+.Conten4{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(196, 193, 17);
+    float:left;
+}
+.Apartado6{
+    width: 960px;
+    margin: 5px 5px 0px 0px ;
+    height: 50px;
+    background-color: rgb(211, 217, 228);
+    display: flex;
+    float: left;
+}
+.Conten5{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(196, 193, 17);
+    float:left;
+}
