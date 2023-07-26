@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Practica JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="Main">
+        <h1><font face="Times New Roman"><strong>Ejercicios de Practica</strong></font></h1>
+    </div>
+    <div class="container">
+        <div class="Exercise1">
+            <h2>Verificar Edad</h2>
+            <input type="text" id="edad" placeholder="Ingrese su edad">
+            <button onclick="verificarEdad()">Verificar</button>
+            <p id="mensaje"></p>
+        </div>
+
+        <div class="Exercise2">
+            <h2>Calificación según la nota</h2>
+            <label for="nota">Ingrese la nota:</label>
+            <input type="number" id="nota" min="0" max="10">
+            <button onclick="calcularCalificacion()">Calcular</button>
+            <div id="result"></div>
+        </div>
+
+        <div class="Exercise3">
+            <h2>Cadenas de Texto</h2>
+            <input type="text" id="inputText">
+            <button onclick="addText()">Agregar texto</button>
+            <button onclick="cancel()">Cancelar</button>
+            <div id="output"></div>
+        </div>
+
+        <div class="Exercise4">
+            <h2>Calcular valor de letra de DNI</h2>
+            <label for="dni">Número de DNI:</label>
+            <input type="text" id="dni" placeholder="Introduce el número de DNI">
+            <button onclick="calcularLetraDNI()">Calcular</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+</body>
+</html>
